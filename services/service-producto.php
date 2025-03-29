@@ -13,7 +13,7 @@ header("Content-type: application/json; charset=utf-8");
 
 $metodo = $_SERVER['REQUEST_METHOD'];
 
-if($metdo == 'GET'){
+if($metodo == 'GET'){
 
   $registros = [];
 
